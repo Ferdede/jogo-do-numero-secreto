@@ -96,6 +96,12 @@ h1 {
     padding-bottom: 3rem;
 }
 
+h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    padding-bottom: 3rem;
+}
+
 p,
 button {
     font-family: 'Inter', sans-serif;
