@@ -17,8 +17,8 @@ function exibirTextoNaTela(tag, texto){
 };
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
+    exibirTextoNaTela('h1', 'Jogo do número secreto Karina');
+    exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10 se acertar ganhara prêmios kkkk');
 };
 
 exibirMensagemInicial();
@@ -69,5 +69,5 @@ function reiniciarJogo() {
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
-    document.getElementsById('reiniciar').setAttribute('disabled',true);
+    document.getElementById('reiniciar').setAttribute('disabled', true);
 }
